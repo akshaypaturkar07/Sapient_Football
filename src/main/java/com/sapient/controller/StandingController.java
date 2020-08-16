@@ -46,7 +46,7 @@ public class StandingController {
                             .collect(Collectors.toList());
 
             } else {
-                
+
                 return "Country is not part of standing";
             }
             if (!leagues.isEmpty()) {
